@@ -1,0 +1,86 @@
+body {
+    display: contents;
+    color:purple;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Main container */
+  .container {
+    width: 100%;
+    margin: auto;
+    background: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0,1,0.4);
+  }
+  
+  /* Heading */
+  h2 {
+    color:green;
+  }
+  
+  /* Search and Filter Section */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .search-bar input,
+  .search-bar select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    width: 40%;
+  }
+  
+  .search-bar select {
+    width: 20%;
+  }
+  
+  /* Repository List */
+  .repo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .repo-item {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: purple;
+  }
+  
+
+  /* Star and Fork Counts */
+  .repo-item .stats {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .search-bar {
+      flex-direction: column;
+      gap: 5px;
+    } */
+  
+    .search-bar input,
+    .search-bar select {
+      width: 100%;
+    }
+  
+  
