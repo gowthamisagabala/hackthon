@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies used:-
+1.React for building UI , 2. CSS for styling the components , 3.Axios for making HTTP request to the github ApI , 4. React-Router-dom used for  routing the  page navigation 
+Features:-
+search repositories:search for repositories based on name or description , 2.Filter by language:Filter repositories by programming language (javascript,python,Go,Ruby,java),3.Sort repositories:by sorting the stars and forks 
